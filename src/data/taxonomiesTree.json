@@ -1,0 +1,81 @@
+{
+  "total_occurrences": 100,
+  "kingdoms": [
+    {
+      "name": "aa",
+      "total_occurrences": 100,
+      "children": [
+        {
+          "name": "ab",
+          "total_occurrences": 20,
+          "children": [
+            {
+              "name": "ac",
+              "total_occurrences": 15,
+              "children": []
+            },
+            {
+              "name": "ad",
+              "total_occurrences": 5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ae",
+          "total_occurrences": 80,
+          "children": [
+            {
+              "name": "af",
+              "total_occurrences": 50,
+              "children": []
+            },
+            {
+              "name": "ag",
+              "total_occurrences": 30,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ba",
+      "total_occurrences": 100,
+      "children": [
+        {
+          "name": "bb",
+          "total_occurrences": 20,
+          "children": [
+            {
+              "name": "bc",
+              "total_occurrences": 15,
+              "children": []
+            },
+            {
+              "name": "bd",
+              "total_occurrences": 5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "be",
+          "total_occurrences": 80,
+          "children": [
+            {
+              "name": "bf",
+              "total_occurrences": 50,
+              "children": []
+            },
+            {
+              "name": "bg",
+              "total_occurrences": 30,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
