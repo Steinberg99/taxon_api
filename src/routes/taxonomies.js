@@ -4,7 +4,7 @@ const depthFirstSearch = require("../helpers/depthFirstSearch");
 
 router.get("/:kingdom/:taxon?", async (req, res) => {
   const { kingdom, taxon } = req.params;
-  const kingdomTree = data.kingdoms.find((obj) => obj.name === kingdom) || null;
+  const kingdomTree = data.children.find((obj) => obj.name === kingdom) || null;
   const result = taxon ? depthFirstSearch(kingdomTree, taxon) : kingdomTree;
 
   if (result) {

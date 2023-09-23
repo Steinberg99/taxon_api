@@ -1,6 +1,7 @@
 {
+  "name": "root",
   "total_occurrences": 100,
-  "kingdoms": [
+  "children": [
     {
       "name": "aa",
       "total_occurrences": 100,
